@@ -12,3 +12,4 @@ Frank's comments about the LaTeX import package addressed the difficulty associa
 
 Part 4:
 
+All the tests that fail are failing because of a type error with fraction and decimal. If you look more closely, the list of values p=[...] that is being passed in to these tests is populated with fractions, but it is supposed to be populated with decimals. The Bonnet recursion (bonnet.py) has the Pn coefficients typed as Decimals in the gaussquad branch (where Frank was working), but the same file (bonnet.py) in the main branch has the Pn coefficients typed as Fractions. So moving from the v4 tagging of the gaussquad branch and merging that into the main branch causes the tests--which are setup for the decimal values--to fail.
