@@ -5,6 +5,7 @@ from itertools import zip_longest
 
 from gauss.legendre.bonnet import legendre_polynomial
 
+import pytest
 
 @pytest.fixture(params=[5, 10, 100, 1000])
 def precision(request):
