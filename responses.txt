@@ -1,0 +1,3 @@
+Part 1:
+
+The file "polynomial_zeros.root" does not appear in the commit tagged part1-squash because it was removed as part of the commit. It was deleted from the branch, and moreover, by adding **/*.ipynb to the .gitignore file, we prevented any .ipynb files from being staged in any future commits.
