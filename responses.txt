@@ -1,3 +1,14 @@
 Part 1:
 
 The file "polynomial_zeros.root" does not appear in the commit tagged part1-squash because it was removed as part of the commit. It was deleted from the branch, and moreover, by adding **/*.ipynb to the .gitignore file, we prevented any .ipynb files from being staged in any future commits.
+
+Part 2:
+
+I decided to keep Frank's changes due to his use of fixtures. Fixtures are modular and easily parametrizable, so it is good practice to use them when writing tests.
+
+Part 3:
+
+Frank's comments about the LaTeX import package addressed the difficulty associated with merge conflicts. If they had stored all of their report sections in separate files and merely combined them using LaTeX import, they wouldn't have to deal with a conflicting report.md every time they merge their changes from separte branches.
+
+Part 4:
+
